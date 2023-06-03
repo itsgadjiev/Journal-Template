@@ -3,15 +3,28 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
+.nonwrap-row {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
 .column {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.nonwrap-column {
+    display: flex;
+    flex-wrap: nowrap;
     flex-direction: column;
 }
 .col-12{
@@ -36,9 +49,7 @@
     width: 16.66%;
 }
 
-.nav-dropdown{
-    height: 100%;
-}
+
 
 .col-10{
     width: 83.33%;
@@ -70,5 +81,9 @@
 
 .container-80{
     width: 80%;
+    margin: 0 auto;
+}
+.container-85{
+    width: 85%;
     margin: 0 auto;
 }

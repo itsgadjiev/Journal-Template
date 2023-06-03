@@ -1,4 +1,5 @@
 header{
+   height: 80px;
    
 }
 
@@ -7,6 +8,7 @@ header{
     height: 80px;
     position: fixed;
     width: 100%;
+    z-index: 999;
 }
 .search-section{
     height: 100%;
@@ -150,11 +152,11 @@ header{
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 1000px){
+@media screen and (min-width: 769px) and (max-width: 1000px){
     .res-logo-section{
         display: block;
         width: 100%;
-        background-color:#2C2C39;
+        background-color:#3B3B42;
         height: 80px;
     }
     
@@ -186,16 +188,24 @@ header{
     .res-card{
         display: block;
     }
+    header{
+        height: 160px;
+     }
+     .navbar{
+        width: 100%;
+        position: absolute;
+     }
+   
 
     
 }
 
-@media screen and (min-width: 280px) and (max-width: 599px){
+@media screen and (min-width: 280px) and (max-width: 768px){
 
     .res-logo-section{
         display: block;
         width: 100%;
-        background-color:#2C2C39;
+        background-color:#3B3B42;
         height: 80px;
     }
     
@@ -227,4 +237,11 @@ header{
     .res-card{
         display: block;
     }
+    header{
+        height: 160px;
+     }
+     .navbar{
+        width: 100%;
+        position: absolute;
+     }
 }
