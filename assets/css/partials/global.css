@@ -87,3 +87,18 @@
     width: 85%;
     margin: 0 auto;
 }
+
+
+.title-devider{
+    display: block;
+    max-width: 50px;
+    height: 1px;
+    background: rgba(42, 184, 88, 1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

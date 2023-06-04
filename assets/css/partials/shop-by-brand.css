@@ -1,0 +1,60 @@
+#shop-by-brand{
+    background-image: url(../../images/pexels-photo-116079-1500x1000.jpg);
+    height: 600px;
+}
+
+.center-div{
+    height: 100%;
+    margin: 0px auto;
+    max-width: 1400px;
+}
+
+.video-wrapper{
+    width: 100%;
+}
+
+.video-wrapper video{
+    width: 100%;
+}
+
+.vidoe-card-section-wrapper {
+    padding-top: 80px;
+    height: 100%;
+    margin: 0px auto;
+    max-width: 1400px;
+
+}
+.card-logo img{
+    width: 100%;
+    opacity: 0.7;
+    filter: grayscale(1);
+}
+.card-icons-section{
+    justify-content: space-around;
+}
+
+.card-logo{
+    width: 15%;
+    height: 15%;
+}
+
+.video-devider{
+    padding-right: 15px;
+}
+
+
+.card-icons-section{
+    margin-top: 70px;
+}
+
+.vidoe-card-section-wrapper-inners{
+    background-color: #2e303654;
+   
+    margin: 0px auto;
+    padding: 20px;
+    
+}
+
+.info-devider{
+    padding: 20px;
+}

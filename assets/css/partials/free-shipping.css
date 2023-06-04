@@ -1,0 +1,19 @@
+.free-shipping-wrapper{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color:#1B1B1B ;
+    align-items: center;
+}
+
+.fa-truck{
+    color: #2AB858;
+}
+
+.free-shipping-wrapper h3{
+    width: 100%;
+    font-size: 14px;
+    color: rgba(165, 165, 165, 1);
+    font-weight: 700;
+    text-transform: uppercase;
+}

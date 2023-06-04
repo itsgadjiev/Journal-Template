@@ -1,0 +1,194 @@
+
+
+.clearance-deals-wrapper{
+    width: 100%;
+    width: 100%;
+    
+    margin-bottom: 20px;
+}
+
+.clearance-deals-head{
+    width: 100%;
+    justify-content: center;
+}
+
+#clearance-deals{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/sunshine-2000x1200.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2vw;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    height: 700px;
+
+}
+.clearance-deals-card-out{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+  
+}
+.clearance-deals-head{
+    text-align: center;
+}
+
+.clearance-deals-head{
+    
+    font-size: 16px;
+   
+}
+
+.clearance-deals-head span{
+   
+    font-size: 16px;
+    color: rgba(165,165,165,1);
+    line-height: 1.5;
+}
+
+.grey-span{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(165,165,165,1);
+    line-height: 1.5;
+}
+
+.blue-span{
+        font-weight: 400;
+        font-size: 16px;
+        color: #3B41C1;
+        line-height: 1.5;
+}
+
+.blue-head{
+    font-size: 25px;
+    font-weight: 800;
+
+}
+.green-span{
+    font-weight: 400;
+    font-size: 16px;
+    color: #32B858;
+    line-height: 1.5;
+}
+
+
+.clearance-deals-head h3{
+    font-size: 32px;
+    color: rgba(238, 238, 238, 1);
+    font-weight: 700;
+}
+
+.clearance-deals-card{
+    margin-top: 30px;
+    height: max-content;
+    min-height: max-content;
+    background: rgba(59, 59, 67, 1);
+    padding: 10px;
+    max-width: 690px;
+}
+
+.clearance-deals-card-image{
+    width: 45ch;
+    height: 30ch;
+}
+
+.clearance-deals-card-image img{
+    width: 100%;
+    height: 80%;
+}
+
+.clearance-card-stats span{
+    padding-right: 1em;
+}
+
+.card-info-section{
+    padding-left: 1em; 
+}
+
+.card-info-section{
+   padding-top: 10px;
+}
+
+.price{    
+    font-size: 20px;
+}
+.lined-span{
+    text-decoration-line: line-through;
+}
+
+.tax-span{
+    display: block;
+    font-size: 12px;
+    color: rgba(118, 114, 114, 1);
+}
+
+
+.fa-down{
+   
+}
+
+.counter{
+    background-color: rgba(118, 114, 114, 1);
+    width: 30px;
+    height: 100%;
+    min-height: 28px;
+    border-radius: inherit !important;
+    border-width: 0;
+    text-align: center;
+    font-size: 13px;
+    transition: all .05s ease-out;
+}
+
+.add-card-btn{
+    width: 150px;
+    background-color: #3B41C1;
+    border: none;
+}
+
+.card-action{
+    margin: 10px 0px;
+}
+
+.fa-brands{
+    padding-top: 3px;
+    padding-right: 3px;
+}
+.fa-envelope{
+    color: #782d0d;
+    padding-right: 3px;
+    padding-top: 4px;
+}
+
+@media screen and (min-width: 760px) and (max-width: 1024px){
+    .col-6{
+        width: 90%;
+        left: 5%;
+    }
+   
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 759px){
+    .clearance-deals-card-image{
+        width: 100%;
+        height: 100%;
+    }
+
+    .col-6{
+        width: 90%;
+        left: 5%;
+    }
+    .clearance-deals-card-image img{
+        width: 100%;
+    }
+
+    .non-active-col{
+        flex-direction: column;
+    }
+
+    #clearance-deals{
+        height: 900px;
+    }
+}
