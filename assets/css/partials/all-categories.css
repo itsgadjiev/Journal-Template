@@ -1,0 +1,124 @@
+#all-categories{
+    background-color: #2C2C39;
+    height: 480px;
+}
+.all-categories-wrapper{
+        margin: 0px auto;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        max-width: 1300px;
+        
+}
+
+.category-kinds{
+    background-color: #3b3b43;
+    padding: 15px;
+    height: 100%;
+
+}
+
+.category-kinds-header h4{
+   
+    font-weight: 700;
+    font-size: 14px;
+    color: rgba(238,238,238,1);
+    text-transform: uppercase;
+    border-width: 0px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+    white-space: normal;
+    /* overflow: visible;
+    text-overflow: initial; */
+    text-align: left;
+}
+.category-kinds-list-li{
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 10px;
+
+}
+.category-kinds-link{
+    text-decoration: none;
+}
+
+.fa-circle-plus{
+    color: rgba(165,165,165,1);
+    
+}
+
+.all-categories-header{
+    padding-bottom: 5px;
+    border-bottom: 0.2px solid #76727232;
+  
+    
+    justify-content: space-between
+    
+}
+.all-categories-card-section{
+    padding: 15px;
+}
+
+.all-categories-header-h4{
+    padding-right: 10px;
+    font-size: 14px;
+    color: rgba(165, 165, 165, 1);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.all-categories-header-action-h4{
+    padding-right: 10px;
+    font-size: 14px;
+    color: rgba(165, 165, 165, 1);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.all-categories-header-card{
+    height: 360px;
+    background-color: #3b3b43;
+    margin-right: 10px;
+    padding: 10px
+}
+
+.all-categories-header-card:hover{
+    
+    background-color: #1b1b1b;
+}
+
+.all-categories-header-card-image{
+    height: 232px;
+    width: 232px;
+}
+
+.all-categories-header-card-image img{
+    width: 100%;
+    height: 100%;
+
+}
+.all-categories-header-card-section{
+    margin-top: 10px;
+}
+.card-info-title{
+    margin-top:10px; 
+}
+
+.card-info-title a{
+    color: rgba(113, 155, 252, 1);
+    text-decoration: none;
+}
+
+.card-info-title a:hover{
+    color: white;
+}
+
+.categories-card-stats{
+    margin-top:10px;
+    padding: 5px; 
+    background-color: #2C2C39;
+    justify-content: space-between;
+}

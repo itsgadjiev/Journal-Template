@@ -201,7 +201,9 @@ header{
 }
 
 @media screen and (min-width: 280px) and (max-width: 768px){
-
+    .nonwrap-row-header{
+        flex-wrap: nowrap;
+    }
     .res-logo-section{
         display: block;
         width: 100%;

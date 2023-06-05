@@ -102,3 +102,14 @@
     margin-right: auto;
     
 }
+
+.title-devider-left{
+    display: block;
+    max-width: 50px;
+    height: 1px;
+    background: rgba(42, 184, 88, 1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+
