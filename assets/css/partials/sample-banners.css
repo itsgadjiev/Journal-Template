@@ -48,7 +48,8 @@
 #background-for-sample-banners{
     
     background-color: #141414;
-    height: 150px;
+    height: 160px;
+    margin-top: -10px;
 
 
 }
@@ -59,8 +60,8 @@
     #background-for-sample-banners{
     
         background-color: #141414;
-        height: 500px;
-    
+        height: 510px;
+        
     
     }
 

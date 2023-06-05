@@ -69,6 +69,10 @@
         padding-right: 0px;
         margin-right: 20px;
     }
+
+    .advatantages-wrap{
+        flex-wrap: wrap;
+    }
     
    
     

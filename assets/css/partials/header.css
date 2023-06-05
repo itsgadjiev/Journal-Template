@@ -9,6 +9,7 @@ header{
     position: fixed;
     width: 100%;
     z-index: 999;
+    
 }
 .search-section{
     height: 100%;
@@ -18,9 +19,15 @@ header{
     justify-content: center;
 }
 .nav-wrapper{
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-top: 20px;
+    max-width: 1600px;
+
+}
+
+.burger{
+    margin-left: 30px;
 }
 
 .burger .fa-solid {
@@ -152,7 +159,7 @@ header{
 }
 
 
-@media screen and (min-width: 769px) and (max-width: 1000px){
+@media screen and (min-width: 760px) and (max-width: 1024px){
     .res-logo-section{
         display: block;
         width: 100%;
@@ -200,7 +207,7 @@ header{
     
 }
 
-@media screen and (min-width: 280px) and (max-width: 768px){
+@media screen and (min-width: 280px) and (max-width: 759px){
     .nonwrap-row-header{
         flex-wrap: nowrap;
     }

@@ -83,7 +83,7 @@ footer{
     border: none;
 }
 .footer-inpu-text{
-    
+    align-items: center;
     background-color: rgb(23, 52, 77);
     justify-content: center;
 }
@@ -113,13 +113,7 @@ footer{
         padding: 0px 10px;
         
     }
-    .footer-inpu-text{
-        height: 100%;
-    }
-
-    .footer-inpu-text span{
-        font-size: 3.2vw;
-    }
+    
 
 
     .footer-inpu-text span{
@@ -146,18 +140,7 @@ footer{
         padding: 0px 10px;
         
     }
-    .footer-inpu-text{
-        height: 100%;
-    }
-
-    .footer-inpu-text span{
-        font-size: 3.2vw;
-    }
-
-
-    .footer-inpu-text span{
-       display: block;
-    }
+   
 
    .nonwrap-row-footer{
         flex-wrap: nowrap;
